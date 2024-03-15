@@ -3,18 +3,13 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+    background-color: black;
 }
 
 @media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+
   }
-}
+
 
 body {
   color: rgb(var(--foreground-rgb));
@@ -30,4 +25,66 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+}
+html, body {
+  font-family: 'Dongle', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-item   {
+  font-weight: bold;
+  font-size: small;
+  font-family: "Fira Code", monospace;
+  margin-right: 10px;
+  color: #8864ff; /* Use the color you want for the number */
+  /* Additional styles */
+}
+
+.nav-link:hover .nav-number {
+  font-weight: bold;
+  background: linear-gradient(45deg, #8864ff, #e81f8a);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent; /* Makes the text itself transparent, showing the background */
+}
+
+.logo{
+  font-family: "Fira Code", monospace;
+}
+.logo:hover {
+  font-family: "Fira Code", monospace;
+  font-weight: bold;
+  background: linear-gradient(45deg, #8864ff, #e81f8a);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent; /* Makes the text itself transparent, showing the background */
+}
+.link {
+  font-weight: bold;
+  background: linear-gradient(45deg, #8864ff, #e81f8a);
+  -webkit-background-clip: text;
+
+  color: transparent; /* Makes the text itself transparent, showing the background */
+}
+.link:hover { 
+  font-weight: bold;
+  background: linear-gradient(45deg, #e81f8a, #8864ff);
+  -webkit-background-clip: text;
+  color: transparent; 
+  text-decoration: underline;
+}
+.greeting {
+  font-family: "Fira Code", monospace;
+  font-weight: bold;
+  background: linear-gradient(45deg, #8864ff, #e81f8a);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent; /* Makes the text itself transparent, showing the background */
+  display: inline-block;
+
+}
+
+.TypeAnimation {
+  color: #60a5fa;
 }
