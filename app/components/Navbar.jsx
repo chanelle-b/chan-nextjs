@@ -45,12 +45,13 @@ const Navbar = () => {
         {/* Logo linking to the homepage */}
         <Link
           href={"/"}
-          className="logo text-2xl md:text-1xl text-white font-semibold"
+          className="logo text-2xl md:text-1xl text-white font-semibold transition-transform duration-500 hover:scale-125"
+          data-aos="fade-down" data-aos-delay="2000"
         >
           CB.
         </Link>
         {/* Mobile menu toggle button */}
-        <div className="mobile-menu block md:hidden">
+        <div className="block md:hidden">
           {!navbarOpen ? (
             <button
               onClick={() => setNavbarOpen(true)} // Toggle menu open
@@ -68,10 +69,10 @@ const Navbar = () => {
           )}
         </div>
         {/* Navigation links for desktop, hidden on mobile */}
-        <div data-aos="fade-down"className="menu hidden md:block md:w-auto" id="navbar">
+        <div data-aos="fade-down" data-aos-delay="2000" className="menu hidden md:block md:w-auto" id="navbar">
           <ul className="flex p-4 md:p-0 md:flex-row md:space-x-8 mt-0">
             {navLinks.map((link, index) => (
-              <li key={index} className="nav-item">
+              <li key={index} className="nav-item transition-transform duration-500 hover:scale-125">
                 <NavLink href={link.path} title={link.title} number={link.number} /> {/* Render navigation link */}
               </li>
             ))}
@@ -84,5 +85,4 @@ const Navbar = () => {
   );
 };
 
-// Export the Navbar component as the default export of this module.
 export default Navbar;

@@ -60,6 +60,29 @@ html, body {
   background-clip: text;
   color: transparent; /* Makes the text itself transparent, showing the background */
 }
+
+.number-tags {
+  position: relative; /* Needed for absolute positioning of pseudo-elements */
+  font-family: "Fira Code", monospace;
+  font-weight: bold;
+  background: linear-gradient(45deg, #8864ff, #e81f8a);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  display: inline-block; /* Or 'block', depending on layout needs */
+  padding-left: 20px; /* Adjust as needed, provides space for the line and some padding */
+}
+
+.number-tags::before {
+  content: ''; /* Required for the pseudo-element to display */
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 1px; /* Line thickness */
+  background-color: #ffffff; /* Line color, adjust as needed */
+}
+
 .link {
   font-weight: bold;
   background: linear-gradient(45deg, #8864ff, #e81f8a);
@@ -88,3 +111,54 @@ html, body {
 .TypeAnimation {
   color: #60a5fa;
 }
+
+.mobile-menu:hover {
+  font-weight: bold;
+  background: linear-gradient(45deg, #e81f8a, #8864ff);
+  -webkit-background-clip: text;
+  color: transparent; 
+}
+.social-links {
+  color: white
+}
+
+.social-links:hover {
+  font-weight: bold;
+  background: linear-gradient(45deg, #e81f8a, #8864ff);
+  -webkit-background-clip: text;
+  color: transparent; 
+}
+
+.social-icons-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px; /* Adjust the space between icons */
+}
+
+
+.social-icons-container::before,
+.social-icons-container::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  width: 1px; /* Line thickness */
+  background-color: #ffffff; /* Line color */
+}
+
+.social-icons-container::before {
+  top: -60%; /* Move the starting point of the top line further up */
+  bottom: 60%; 
+  margin-bottom:40px;
+  margin-left: -4px;
+
+  /* Adjust to control the end point of the top line */
+}
+
+.social-icons-container::after {
+  top: 60%; /* Adjust to control the starting point of the bottom line */
+  bottom: -60%;
+  margin-top: 36px;
+  margin-left: -4px; /* Move the ending point of the bottom line further down */
+}
+
