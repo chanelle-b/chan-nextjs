@@ -146,19 +146,61 @@ html, body {
   background-color: #ffffff; /* Line color */
 }
 
-.social-icons-container::before {
-  top: -60%; /* Move the starting point of the top line further up */
-  bottom: 60%; 
-  margin-bottom:40px;
-  margin-left: -4px;
 
-  /* Adjust to control the end point of the top line */
-}
 
 .social-icons-container::after {
   top: 60%; /* Adjust to control the starting point of the bottom line */
-  bottom: -60%;
+  bottom: -70%;
   margin-top: 36px;
   margin-left: -4px; /* Move the ending point of the bottom line further down */
 }
+.gradient-border {
+  background: linear-gradient(163deg, #e81f8a 0%, #73daff 50%, #8864ff 100%);
+}
 
+
+.card {
+  width: 350px;
+  background-image: linear-gradient(163deg, #e81f8a 0%, #73daff 50%, #8864ff 100%);
+  border-radius: 21px;
+  transition: all .3s;
+ }
+
+ .card2 {
+  width: 350px;
+  height: 250px;
+  border-radius: 20px;
+  background-color: #040404;
+  transition: all .2s;
+ }
+ 
+ .card2:hover {
+  transform: scale(0.98);
+  border-radius: 20px;
+ }
+ 
+ .card:hover {
+  transform: translateY(-15px);
+  box-shadow: 0px 0px 30px 1px rgba(239, 138, 255, 0.406);
+ }
+
+ .project-title {
+  font-family: var(--font-sans-medium);
+  font-size: var(--fz-xxl);
+  margin-bottom: 5px;
+  text-align: center;
+  line-height: 0.8;
+ }
+
+ .project-body {
+  text-align: center;
+  color: var(--sub-main);
+  font-family: var(--font-sans);
+  font-size: var(--fz-md);
+  line-height: 1.4;
+ }
+
+ .project-languages {
+  font-family: var(--font-mono);
+
+ }

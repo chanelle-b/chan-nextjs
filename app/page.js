@@ -4,6 +4,8 @@ import HeaderSection from './components/HeaderSection';
 import Navbar from './components/Navbar';
 import About from './components/About';
 import Socials from './components/Socials';
+import ProjectSection from './components/ProjectSection'; 
+import ContactSection from './components/ContactSection';
 
 
 export default function Home() {
@@ -36,6 +38,8 @@ export default function Home() {
           <Socials />
           <HeaderSection />
           <About />
+          <ProjectSection />
+          <ContactSection />
 
           {/* Your main content goes here */}
         </div>

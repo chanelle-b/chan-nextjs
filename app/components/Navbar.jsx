@@ -45,8 +45,9 @@ const Navbar = () => {
         {/* Logo linking to the homepage */}
         <Link
           href={"/"}
+          
           className="logo text-2xl md:text-1xl text-white font-semibold transition-transform duration-500 hover:scale-125"
-          data-aos="fade-down" data-aos-delay="2000"
+          
         >
           CB.
         </Link>
