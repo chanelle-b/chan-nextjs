@@ -23,7 +23,7 @@ const ProjectSection = () => {
           </h2>
         </div>
 
-        <div data-aos="fade-down" data-aos-delay="300" className="pb-4 pt-2">
+        <div data-aos="fade-down" data-aos-delay="300" className="pb-4  ">
           <div className="card gradient-border p-0.2 inline-block -mt-8">
             <div className="card2 content border border-purple-400 p-4 text-white hover:text-black bg-black text-transparent bg-clip-text bg-gradient-to-r from-purple-900 via-blue-400 to-pink-500">
               <h1 className="project-title text-2xl font-semibold scale-125 drop-shadow-md pb-1 pt-2">
