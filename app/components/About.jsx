@@ -43,7 +43,7 @@ const About = () => {
               projects.
               <br></br>
               <br></br>
-              I've currently been focued on further refining my skills with
+              I&apos;ve currently been focued on further refining my skills with
               backend technologies, as well as exploring the ever expanding
               capabilities of artificial intelligence!
             </p>
