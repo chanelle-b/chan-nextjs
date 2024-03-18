@@ -13,7 +13,7 @@ const Socials = () => {
     >
       <div className="social-icons-container">
         <a
-          href="#"
+          href="https://github.com/chanelle-b"
           title="github"
           className="transition-transform duration-500 scale-100 hover:scale-125 lg:text-2xl pt-0 p-3"
         >
@@ -37,7 +37,7 @@ const Socials = () => {
           <i className="bi bi-envelope-open-heart social-links" aria-hidden="true"></i>
         </a>
         <a
-          href="#"
+          href="https://www.linkedin.com/in/chanelle-blackwood-a437902aa/"
           title="linkedin"
           className="transition-transform duration-300 hover:scale-125 text-2xl mb-20 p-3"
         >

@@ -10,7 +10,7 @@ const ProjectSection = () => {
   }, []);
 
   return (
-    <section className="flex justify-center w-full pl-10 md:pt-32 lg:pt-64 ">
+    <section id="projects" className="flex justify-center w-full pl-10 md:pt-32 lg:pt-64">
       <div className="pt-18 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-14 lg:gap-14 lg:gap-x-14 px-4 md:pr-8 md:gap-x-52">
         {/* Header like the "About Me" header */}
         <div className="col-span-full">
@@ -23,7 +23,7 @@ const ProjectSection = () => {
           </h2>
         </div>
 
-        <div data-aos="fade-down" data-aos-delay="300">
+        <div data-aos="fade-down" data-aos-delay="300" className="pb-4 pt-2">
           <div className="card gradient-border p-0.2 inline-block -mt-8">
             <div className="card2 content border border-purple-400 p-4 text-white hover:text-black bg-black text-transparent bg-clip-text bg-gradient-to-r from-purple-900 via-blue-400 to-pink-500">
               <h1 className="project-title text-2xl font-semibold scale-125 drop-shadow-md pb-1 pt-2">
@@ -71,7 +71,7 @@ const ProjectSection = () => {
         </div>
 
         {/* Card 2 */}
-        <div data-aos="fade-down" data-aos-delay="500">
+        <div data-aos="fade-down" data-aos-delay="500" className="pb-4">
           <div className="card gradient-border p-0.2 inline-block -mt-8">
             <div className="card2 content border border-purple-400 p-4 text-white hover:text-purple-300">
               <h1 className="project-title text-2xl font-semibold scale-125 drop-shadow-md pb-1 pt-2">
@@ -120,7 +120,7 @@ const ProjectSection = () => {
 
         {/* Card 3 */}
         <div className="-mt-8">
-          <div data-aos="fade-down" data-aos-delay="300">
+          <div data-aos="fade-down" data-aos-delay="700">
             <div className="card gradient-border p-0.2 inline-block">
               <div className="card2 content border border-purple-400 p-4 text-white hover:text-black bg-black text-transparent bg-clip-text bg-gradient-to-r from-purple-900 via-blue-400 to-pink-500">
                 <h1 className="project-title text-2xl font-semibold scale-125 drop-shadow-md pb-1 pt-2">
@@ -168,7 +168,7 @@ const ProjectSection = () => {
         {/* Last Card with specific positioning on medium and large screens */}
         <div
           data-aos="fade-down"
-          data-aos-delay="830"
+          data-aos-delay="1000"
           className="md:col-start-2 lg:col-start2"
         >
           <div className="card gradient-border p-0.2 inline-block -mt-">
