@@ -2,7 +2,7 @@ import React from "react";
 
 const ContactSection = () => {
   return (
-    <section className="flex justify-center items-center py-10 pl-1 mt-8 h-screen">
+    <section id="contact" className="flex justify-center items-center py-10 pl-1 mt-8 h-screen">
       {/* Ensures the section takes full viewport height and centers content */}
       <div className="flex flex-col justify-center items-center w-full">
         {/* Adds Flexbox centering to this div */}

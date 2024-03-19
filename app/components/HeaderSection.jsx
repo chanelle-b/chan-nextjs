@@ -80,18 +80,18 @@ const HeaderSection = () => {
           </p>
           <div data-aos="fade-up" data-aos-delay="2000">
             {/* Hire Me Button */}
-            <button className=" mr-5 transition-transform duration-500 hover:scale-110 font-mono relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-lg font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-purple-800 via-blue-400 to-pink-500 group-hover:from-pink-500 group-hover:to-yellow-500 hover:text-white dark:text-white">
+            <a href="#contact" className=" mr-5 transition-transform duration-500 hover:scale-110 font-mono relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-lg font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-purple-800 via-blue-400 to-pink-500 group-hover:from-pink-500 group-hover:to-yellow-500 hover:text-white dark:text-white">
               <span className="relative px-10 py-4 transition-all ease-in duration-100 bg-white dark:bg-black rounded-md group-hover:bg-opacity-0">
                 Hire Me
               </span>
-            </button>
+            </a>
 
             {/* Download CV Button */}
-            <button className="transition-transform duration-500 hover:scale-110 font-mono relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-lg font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-purple-800 via-blue-400 to-pink-500 group-hover:from-pink-500 group-hover:to-yellow-500 hover:text-black dark:text-white">
+            <a href="/resume.pdf" className="transition-transform duration-500 hover:scale-110 font-mono relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-lg font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-purple-800 via-blue-400 to-pink-500 group-hover:from-pink-500 group-hover:to-yellow-500 hover:text-black dark:text-white">
               <span className="relative px-10 py-4 transition-all ease-in duration-100 bg-white dark:bg-transparent rounded-md group-hover:bg-opacity-0">
                 Download CV
               </span>
-            </button>
+            </a>
           </div>
         </div>
         {/* This div is for the circle and image, now correctly placed within the grid */}

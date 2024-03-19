@@ -10,7 +10,10 @@ const ProjectSection = () => {
   }, []);
 
   return (
-    <section id="projects" className="flex justify-center w-full pl-10 md:pt-32 lg:pt-64">
+    <section
+      id="projects"
+      className="flex justify-center w-full pl-10 md:pt-32 lg:pt-64"
+    >
       <div className="pt-18 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-14 lg:gap-14 lg:gap-x-14 px-4 md:pr-8 md:gap-x-52">
         {/* Header like the "About Me" header */}
         <div className="col-span-full">
@@ -27,10 +30,20 @@ const ProjectSection = () => {
           <div className="card gradient-border p-0.2 inline-block -mt-8">
             <div className="card2 content border border-purple-400 p-4 text-white hover:text-black bg-black text-transparent bg-clip-text bg-gradient-to-r from-purple-900 via-blue-400 to-pink-500">
               <h1 className="project-title text-2xl font-semibold scale-125 drop-shadow-md pb-1 pt-2">
-                **Project Name**
+                Chan-Folio
                 <br />
               </h1>
-              <div class="flex justify-center items-center">
+              <div class="flex justify-center items-center pr-4">
+                <button class="transition-transform duration-200 scale-150 hover:scale-125 pr-1">
+                  <i
+                    stroke-linecap="round"
+                    stroke-width="2"
+                    stroke="currentColor"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    class="bi bi-link-45deg w-8 hover:text-[rgb(99,213,255)]"
+                  ></i>
+                </button>
                 <button class="transition-transform duration-200 hover:scale-125">
                   <svg
                     stroke-linejoin="round"
@@ -46,12 +59,12 @@ const ProjectSection = () => {
                 </button>
               </div>
 
-              <p className="text-center text-sm font-light italic">
+              <p className="text-center text-sm font-light italic pr-2">
                 (In Progress)
               </p>
               <div className="text-sm">
                 <p className="project-body font-medium mt-4 mb-1 text-sm leading-relaxed">
-                  **Desribe Project Here**
+                  **Describe portfolio here**
                 </p>
               </div>
 
@@ -75,7 +88,7 @@ const ProjectSection = () => {
           <div className="card gradient-border p-0.2 inline-block -mt-8">
             <div className="card2 content border border-purple-400 p-4 text-white hover:text-purple-300">
               <h1 className="project-title text-2xl font-semibold scale-125 drop-shadow-md pb-1 pt-2">
-                **Project Name**
+                ScreenSeeker
                 <br />
               </h1>
               <div class="flex justify-center items-center">
