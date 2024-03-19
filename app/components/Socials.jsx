@@ -30,7 +30,7 @@ const Socials = () => {
           </svg>
         </a>
         <a
-          href="#"
+          href="mailto:cblack4456@gmail.com"
           title="email"
           className="transition-transform duration-500 hover:scale-125 text-2xl p-3"
         >
