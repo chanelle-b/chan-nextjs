@@ -15,7 +15,7 @@ const ProjectSection = () => {
       className="flex justify-center w-full pl-10 md:pt-32 lg:pt-64"
     >
       <div className="pt-18 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-14 lg:gap-14 lg:gap-x-14 px-4 md:pr-8 md:gap-x-52">
-        {/* Header like the "About Me" header */}
+        {/* Header */}
         <div className="col-span-full">
           <h2
             data-aos="fade-down"
@@ -193,10 +193,10 @@ const ProjectSection = () => {
             </div>
           </div>
         </div>
-        {/* Last Card with specific positioning on medium and large screens */}
+            {/* Card 4 */}
         <div
           data-aos="fade-down"
-          data-aos-delay="1000"
+          data-aos-delay="900"
           className="md:col-start-2 lg:col-start2"
         >
           <div className="card gradient-border p-0.2 inline-block -mt-">

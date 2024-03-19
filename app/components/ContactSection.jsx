@@ -3,9 +3,9 @@ import React from "react";
 const ContactSection = () => {
   return (
     <section id="contact" className="flex justify-center items-center py-10 pl-1 mt-8 h-screen">
-      {/* Ensures the section takes full viewport height and centers content */}
+      {/* full viewport height and centers content */}
       <div className="flex flex-col justify-center items-center w-full">
-        {/* Adds Flexbox centering to this div */}
+        {/* flexbox to center div */}
         <div data-aos="fade-down" data-aos-delay="300" className="text-center">
           <span className="number-tags text-3xl font-mono">03.</span>
           <h1

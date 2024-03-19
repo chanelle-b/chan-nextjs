@@ -1,13 +1,13 @@
 "use client";
 import React, { useEffect } from "react";
 import AOS from "aos";
-import Image from "next/image"; // Ensure this import is correctly capitalized
+import Image from "next/image";
 
 const About = () => {
   useEffect(() => {
     AOS.init({
-      // settings here, e.g., duration: 1200,
-      once: true, // whether animation should happen only once - while scrolling down
+     
+      once: true, 
     });
   }, []);
   return (
@@ -56,7 +56,7 @@ const About = () => {
     data-aos-once="true"
     layout="responsive"
     src="/profile_image_bnw.jpg"
-    width={500} // These values act as the aspect ratio
+    width={500} 
     height={500}
     alt="profile photo"
     className="pl-32"

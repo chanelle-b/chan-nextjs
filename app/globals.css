@@ -37,8 +37,8 @@ html, body {
   font-size: small;
   font-family: "Fira Code", monospace;
   margin-right: 10px;
-  color: #8864ff; /* Use the color you want for the number */
-  /* Additional styles */
+  color: #8864ff; 
+
 }
 
 .nav-link:hover .nav-number {
@@ -46,7 +46,7 @@ html, body {
   background: linear-gradient(45deg, #8864ff, #e81f8a);
   -webkit-background-clip: text;
   background-clip: text;
-  color: transparent; /* Makes the text itself transparent, showing the background */
+  color: transparent; 
 }
 
 .logo{
@@ -58,29 +58,29 @@ html, body {
   background: linear-gradient(45deg, #8864ff, #e81f8a);
   -webkit-background-clip: text;
   background-clip: text;
-  color: transparent; /* Makes the text itself transparent, showing the background */
+  color: transparent; 
 }
 
 .number-tags {
-  position: relative; /* Needed for absolute positioning of pseudo-elements */
+  position: relative; 
   font-family: "Fira Code", monospace;
   font-weight: bold;
   background: linear-gradient(45deg, #8864ff, #e81f8a);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
-  display: inline-block; /* Or 'block', depending on layout needs */
-  padding-left: 20px; /* Adjust as needed, provides space for the line and some padding */
+  display: inline-block; 
+  padding-left: 20px; 
 }
 
 .number-tags::before {
-  content: ''; /* Required for the pseudo-element to display */
+  content: ''; 
   position: absolute;
   left: 0;
   top: 0;
   bottom: 0;
-  width: 1px; /* Line thickness */
-  background-color: #ffffff; /* Line color, adjust as needed */
+  width: 1px; 
+  background-color: #ffffff; 
 }
 
 .link {
@@ -88,7 +88,7 @@ html, body {
   background: linear-gradient(45deg, #8864ff, #e81f8a);
   -webkit-background-clip: text;
 
-  color: transparent; /* Makes the text itself transparent, showing the background */
+  color: transparent;
 }
 .link:hover { 
   font-weight: bold;
@@ -103,7 +103,7 @@ html, body {
   background: linear-gradient(45deg, #8864ff, #e81f8a);
   -webkit-background-clip: text;
   background-clip: text;
-  color: transparent; /* Makes the text itself transparent, showing the background */
+  color: transparent; 
   display: inline-block;
 
 }
@@ -133,7 +133,7 @@ html, body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 10px; /* Adjust the space between icons */
+  gap: 10px; 
 }
 
 
@@ -142,17 +142,17 @@ html, body {
   content: '';
   position: absolute;
   left: 50%;
-  width: 1px; /* Line thickness */
-  background-color: #ffffff; /* Line color */
+  width: 1px; 
+  background-color: #ffffff; 
 }
 
 
 
 .social-icons-container::after {
-  top: 60%; /* Adjust to control the starting point of the bottom line */
+  top: 60%; 
   bottom: -70%;
   margin-top: 36px;
-  margin-left: -4px; /* Move the ending point of the bottom line further down */
+  margin-left: -4px; 
 }
 .gradient-border {
   background: linear-gradient(163deg, #e81f8a 0%, #73daff 50%, #8864ff 100%);
