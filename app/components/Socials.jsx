@@ -9,7 +9,7 @@ const Socials = () => {
       aos-init
       data-aos="fade-left"
       data-aos-delay="3000"
-      className="md:flex text-white fixed right-0 top-1/2 transform -translate-y-1/2 flex-col items-center space-y-2 p-4 pr-6 scale-125 hidden"
+      className="md:flex text-[#bebebe] fixed right-0 top-1/2 transform -translate-y-1/2 flex-col items-center space-y-2 p-4 pr-6 scale-125 hidden"
     >
       <div className="social-icons-container">
         <a
@@ -20,7 +20,7 @@ const Socials = () => {
           <svg
             stroke-linejoin="round"
             stroke-linecap="round"
-            stroke-width="2"
+            stroke-width="1.5"
             stroke="currentColor"
             fill="none"
             viewBox="0 0 24 24"

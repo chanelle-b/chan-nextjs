@@ -1,10 +1,9 @@
-
 "use client";
-import Link from "next/link"; 
-import React, { useState } from "react"; 
-import NavLink from "./NavLink"; 
-import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid"; 
-import MenuOverlay from "./MenuOverlay"; 
+import Link from "next/link";
+import React, { useState } from "react";
+import NavLink from "./NavLink";
+import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
+import MenuOverlay from "./MenuOverlay";
 import Image from "next/image";
 
 const navLinks = [
@@ -18,14 +17,13 @@ const navLinks = [
     number: "02. ",
     title: "Projects",
     path: "#projects",
-    class: "nav-item"
+    class: "nav-item",
   },
   {
     number: "03. ",
     title: "Contact",
     path: "#contact",
     class: "nav-item",
-    
   },
 ];
 
@@ -34,15 +32,13 @@ const Navbar = () => {
   const [navbarOpen, setNavbarOpen] = useState(false);
 
   return (
-    <nav className="fixed mx-auto top-0 left-0 right-0 z-10 bg-[#000000] bg-opacity-55">
+    <nav className="fixed mx-auto top-0 left-0 right-0 z-10 bg-[#0b0b0bd0] bg-opacity-55">
       {/* Container for navbar content centered padded */}
       <div className="flex container lg:py-5 flex-wrap items-center justify-between mx-auto px-1 py-1">
         {/* Logo linking to the homepage */}
         <Link
           href={"/"}
-          
-          className="logo text-2xl md:text-1xl text-white font-semibold transition-transform duration-500 hover:scale-125"
-          
+          className="logo text-2xl md:text-1xl text-slate-300 font-semibold transition-transform duration-500 hover:scale-125"
         >
           CB.
         </Link>
@@ -65,12 +61,24 @@ const Navbar = () => {
           )}
         </div>
         {/* Nav links for desktop */}
-        <div data-aos="fade-down" data-aos-delay="2000" className="menu hidden md:block md:w-auto" id="navbar">
+        <div
+          data-aos="fade-down"
+          data-aos-delay="2000"
+          className="menu hidden md:block md:w-auto"
+          id="navbar"
+        >
           <ul className="flex p-4 md:p-0 md:flex-row md:space-x-8 mt-0">
             {navLinks.map((link, index) => (
-              <li key={index} className="nav-item transition-transform duration-500 hover:scale-125">
+              <li
+                key={index}
+                className="nav-item transition-transform duration-500 hover:scale-125"
+              >
                 {/* Render nav link */}
-                <NavLink href={link.path} title={link.title} number={link.number} /> 
+                <NavLink
+                  href={link.path}
+                  title={link.title}
+                  number={link.number}
+                />
               </li>
             ))}
           </ul>

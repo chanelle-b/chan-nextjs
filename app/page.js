@@ -6,12 +6,13 @@ import About from './components/About';
 import Socials from './components/Socials';
 import ProjectSection from './components/ProjectSection';
 import ContactSection from './components/ContactSection';
+import Footer from './components/Footer';
 
 
 export default function Home() {
   return (
     <div className="relative min-h-screen">
-      <video
+      {/* <video
         src={require("../public/bgUpscaled.mp4")}
         autoPlay
         poster="../public/bgposter.png"
@@ -27,7 +28,7 @@ export default function Home() {
           transform: 'translate(-50%, -50%)',
           zIndex: '-1',
         }}
-      />
+      /> */}
 
 
 
@@ -39,6 +40,7 @@ export default function Home() {
           <About />
           <ProjectSection />
           <ContactSection />
+          <Footer />
         </div>
       </main>
     </div>

@@ -31,7 +31,7 @@ const HeaderSection = () => {
               <h1
                 data-aos="fade-down"
                 data-aos-delay="750"
-                className="mb-4 text-white text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold"
+                className="mb-4 text-slate-300 text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold"
               >
                 <span className="lg:whitespace-nowrap md:whitespace-nowrap ">Chanelle Blackwood.</span>
               </h1>
@@ -39,7 +39,7 @@ const HeaderSection = () => {
             <h1
               data-aos="fade-down"
               data-aos-delay="1200"
-              className="text-white mb-5 text-4xl sm:text-5xl lg:text-6xl font-extrabold"
+              className="text-slate-300 mb-5 text-4xl sm:text-5xl lg:text-6xl font-extrabold"
             >
               I&apos;m a{" "}
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-800  via-blue-400 to-pink-500 ">
@@ -61,7 +61,7 @@ const HeaderSection = () => {
             <p
               data-aos="fade-down"
               data-aos-delay="1600"
-              className="text-white text-base sm:text-sm mb-6 lg:text-sm"
+              className="text-slate-300 text-base sm:text-sm mb-6 lg:text-sm"
             >
               Computer Programming student at{" "}
               <a
@@ -77,7 +77,7 @@ const HeaderSection = () => {
             <div data-aos="fade-up" data-aos-delay="2000" className="flex justify-start lg:justify-start gap-4 flex-wrap">
               {/* Hire Me Button */}
               <a href="#contact" className=" mr-5 transition-transform duration-500 hover:scale-110 font-mono relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-lg font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-purple-800 via-blue-400 to-pink-500 group-hover:from-pink-500 group-hover:to-yellow-500 hover:text-white dark:text-white">
-                <span className="relative px-10 py-4 transition-all ease-in duration-100 bg-white dark:bg-black rounded-md group-hover:bg-opacity-0">
+                <span className="relative px-10 py-4 transition-all ease-in duration-100 bg-white dark:bg-[#0e0e0e] rounded-md group-hover:bg-opacity-0">
                   Hire Me
                 </span>
               </a>

@@ -12,7 +12,7 @@ const ProjectSection = () => {
   return (
     <section
       id="projects"
-      className="flex justify-center w-full pl-10 md:pt-32 lg:pt-64"
+      className="flex justify-center w-full pl-4 sm:pl-10 md:pt-32 lg:pt-64"
     >
       <div className="pt-18 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-14 lg:gap-14 lg:gap-x-14 px-4 md:pr-8 md:gap-x-52">
         {/* Header */}
@@ -20,7 +20,7 @@ const ProjectSection = () => {
           <h2
             data-aos="fade-down"
             data-aos-delay="0"
-            className="about-me pt-16 text-xl sm:text-2xl md:text-3xl lg:text-3xl font-extrabold text-white"
+            className="about-me pt-16 text-xl sm:text-2xl md:text-3xl lg:text-3xl font-extrabold text-slate-300"
           >
             <span className="number-tags text-3xl font-mono">02.</span> Projects
           </h2>
