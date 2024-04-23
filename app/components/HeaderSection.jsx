@@ -72,7 +72,7 @@ const HeaderSection = () => {
               </a>{" "}
               interested in full-stack development. <br />
               Currently looking for{" "}
-              <span className="link">Summer 2024 internships.</span>
+              <span className="link">Spring 2025 New Grad opportunities!.</span>
             </p>
             <div data-aos="fade-up" data-aos-delay="2000" className="flex justify-start lg:justify-start gap-4 flex-wrap">
               {/* Hire Me Button */}

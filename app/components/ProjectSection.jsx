@@ -197,9 +197,8 @@ const ProjectSection = () => {
         <div
           data-aos="fade-down"
           data-aos-delay="900"
-          className="md:col-start-2 lg:col-start2"
-        >
-          <div className="card gradient-border p-0.2 inline-block -mt-">
+          className="md:col-start-2 lg:col-start-2">
+          <div className="card gradient-border p-0.2 inline-block ">
             <div className="card2 content border border-purple-400 p-4 text-white hover:text-purple-300">
               <h1 className="project-title text-2xl font-semibold scale-125 drop-shadow-md pb-1 pt-2">
                 AI ChatBot

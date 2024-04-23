@@ -21,7 +21,7 @@ const ContactSection = () => {
               data-aos-delay="750"
               className="text-slate-300 text-base sm:text-sm mb-6 lg:text-lg pt-6 pb-4"
             >
-              I&apos;m actively applying for <span className="link">Summer 2024 internships.</span> If you&apos;re in the market for a <br></br> motivated and creative individual, look no further! My skills and qualifications<br></br> may align with what you&apos;re looking for, so drop me a message and let&apos;s chat<br></br> about potential opportunities.
+              I&apos;m actively applying for <span className="link">Spring 2025 New Grad opportunities.</span> If you&apos;re in the market for a <br></br> motivated and creative individual, look no further! My skills and qualifications<br></br> may align with what you&apos;re looking for, so drop me a message and let&apos;s chat<br></br> about potential opportunities.
             </p>
             <div data-aos="fade-up" data-aos-delay="1000">
             {/* Say Hi Button */}
