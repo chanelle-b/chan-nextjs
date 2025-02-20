@@ -11,7 +11,7 @@ import Footer from './components/Footer';
 
 export default function Home() {
   return (
-    <div className="relative min-h-screen">
+    <div className="relative min-h-screen overflow-x-hidden">
       {/* <video
         src={require("../public/bgUpscaled.mp4")}
         autoPlay
