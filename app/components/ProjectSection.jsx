@@ -92,6 +92,7 @@ const ProjectSection = () => {
         </div>
 
         {/* Card 2 */}
+        {/* test commit */}
         <div data-aos="fade-down" data-aos-delay="500" className="pb-4">
           <div className="card gradient-border p-0.2 inline-block -mt-8">
             <div className="card2 content border border-purple-400 p-4 text-white hover:text-purple-300">
