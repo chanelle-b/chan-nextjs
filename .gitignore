@@ -34,3 +34,28 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+
+# Editor config files (optional)
+jsconfig.json
+tsconfig.json
+
+# ESLint config (if only used for local linting)
+.eslintrc.json
+
+
+package-lock.json
+
+# Next.js cache
+.next/cache/
+
+# Logs
+*.log
+
+# Temporary files
+*.swp
+*.swo
+*.swn
+
+# MacOS system file
+Thumbs.db
