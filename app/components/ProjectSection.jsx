@@ -14,7 +14,7 @@ const ProjectSection = () => {
       id="projects"
       className="flex justify-center w-full pl-4 sm:pl-10 md:pt-32 lg:pt-64"
     >
-      <div className="pt-18 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-14 lg:gap-14 lg:gap-x-14 px-4 md:pr-8 md:gap-x-52">
+      <div className="pt-18 grid justify-items-center grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-14 lg:gap-14 lg:gap-x-14 px-4 md:pr-8 md:gap-x-52">
         {/* Header */}
         <div className="col-span-full">
           <h2
